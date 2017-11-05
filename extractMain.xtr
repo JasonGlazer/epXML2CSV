@@ -1,0 +1,354 @@
+# ==========================================================================================
+#
+# AnnualBuildingUtilityPerformanceSummary - Site and Source Energy Subtable
+#
+TotalSiteEnergy,AnnualBuildingUtilityPerformanceSummary,Entire Facility,SiteAndSourceEnergy,TotalSiteEnergy,TotalEnergy
+NetSiteEnergy,AnnualBuildingUtilityPerformanceSummary,Entire Facility,SiteAndSourceEnergy,NetSiteEnergy,TotalEnergy
+TotalSourceEnergy,AnnualBuildingUtilityPerformanceSummary,Entire Facility,SiteAndSourceEnergy,TotalSourceEnergy,TotalEnergy
+NetSourceEnergy,AnnualBuildingUtilityPerformanceSummary,Entire Facility,SiteAndSourceEnergy,NetSourceEnergy,TotalEnergy
+TotalSiteEnergyPerCondArea,AnnualBuildingUtilityPerformanceSummary,Entire Facility,SiteAndSourceEnergy,TotalSiteEnergy,EnergyPerConditionedBuildingArea
+NetSiteEnergyPerCondArea,AnnualBuildingUtilityPerformanceSummary,Entire Facility,SiteAndSourceEnergy,NetSiteEnergy,EnergyPerConditionedBuildingArea
+TotalSourceEnergyPerCondArea,AnnualBuildingUtilityPerformanceSummary,Entire Facility,SiteAndSourceEnergy,TotalSourceEnergy,EnergyPerConditionedBuildingArea
+NetSourceEnergyPerCondArea,AnnualBuildingUtilityPerformanceSummary,Entire Facility,SiteAndSourceEnergy,NetSourceEnergy,EnergyPerConditionedBuildingArea
+#
+# AnnualBuildingUtilityPerformanceSummary - Building Area Subtable
+#
+BldgAreaABUPS,AnnualBuildingUtilityPerformanceSummary,Entire Facility,BuildingArea,Area,TotalBuildingArea
+NetCondAreaABUPS,AnnualBuildingUtilityPerformanceSummary,Entire Facility,BuildingArea,Area,NetConditionedBuildingArea
+#
+# AnnualBuildingUtilityPerformanceSummary - End Uses Subtable
+#
+ElecHeatABUPS,AnnualBuildingUtilityPerformanceSummary,Entire Facility,EndUses,Heating,Electricity
+ElecCoolABUPS,AnnualBuildingUtilityPerformanceSummary,Entire Facility,EndUses,Cooling,Electricity
+ElecIntLtABUPS,AnnualBuildingUtilityPerformanceSummary,Entire Facility,EndUses,InteriorLighting,Electricity
+ElecExtLtABUPS,AnnualBuildingUtilityPerformanceSummary,Entire Facility,EndUses,ExteriorLighting,Electricity
+ElecIntEqABUPS,AnnualBuildingUtilityPerformanceSummary,Entire Facility,EndUses,InteriorEquipment,Electricity
+ElecExtEqABUPS,AnnualBuildingUtilityPerformanceSummary,Entire Facility,EndUses,ExteriorEquipment,Electricity
+ElecFanABUPS,AnnualBuildingUtilityPerformanceSummary,Entire Facility,EndUses,Fans,Electricity
+ElecPumpABUPS,AnnualBuildingUtilityPerformanceSummary,Entire Facility,EndUses,Pumps,Electricity
+ElecHtRejABUPS,AnnualBuildingUtilityPerformanceSummary,Entire Facility,EndUses,HeatRejection,Electricity
+ElecHumidABUPS,AnnualBuildingUtilityPerformanceSummary,Entire Facility,EndUses,Humidification,Electricity
+ElecHtRecABUPS,AnnualBuildingUtilityPerformanceSummary,Entire Facility,EndUses,HeatRecovery,Electricity
+ElecWatSysABUPS,AnnualBuildingUtilityPerformanceSummary,Entire Facility,EndUses,WaterSystems,Electricity
+ElecRefrigABUPS,AnnualBuildingUtilityPerformanceSummary,Entire Facility,EndUses,Refrigeration,Electricity
+ElecGenerABUPS,AnnualBuildingUtilityPerformanceSummary,Entire Facility,EndUses,Generators,Electricity
+ElecTotalABUPS,AnnualBuildingUtilityPerformanceSummary,Entire Facility,EndUses,TotalEndUses,Electricity
+GasHeatABUPS,AnnualBuildingUtilityPerformanceSummary,Entire Facility,EndUses,Heating,NaturalGas
+GasCoolABUPS,AnnualBuildingUtilityPerformanceSummary,Entire Facility,EndUses,Cooling,NaturalGas
+GasIntEqABUPS,AnnualBuildingUtilityPerformanceSummary,Entire Facility,EndUses,InteriorEquipment,NaturalGas
+GasExtEqABUPS,AnnualBuildingUtilityPerformanceSummary,Entire Facility,EndUses,ExteriorEquipment,NaturalGas
+GasHumidABUPS,AnnualBuildingUtilityPerformanceSummary,Entire Facility,EndUses,Humidification,NaturalGas
+GasHtRecABUPS,AnnualBuildingUtilityPerformanceSummary,Entire Facility,EndUses,HeatRecovery,NaturalGas
+GasWatSysABUPS,AnnualBuildingUtilityPerformanceSummary,Entire Facility,EndUses,WaterSystems,NaturalGas
+GasGenerABUPS,AnnualBuildingUtilityPerformanceSummary,Entire Facility,EndUses,Generators,NaturalGas
+GasTotalABUPS,AnnualBuildingUtilityPerformanceSummary,Entire Facility,EndUses,TotalEndUses,NaturalGas
+AddFuelTotalABUPS,AnnualBuildingUtilityPerformanceSummary,Entire Facility,EndUses,TotalEndUses,AdditionalFuel
+DisCoolTotalABUPS,AnnualBuildingUtilityPerformanceSummary,Entire Facility,EndUses,TotalEndUses,DistrictCooling
+DisHeatTotalABUPS,AnnualBuildingUtilityPerformanceSummary,Entire Facility,EndUses,TotalEndUses,DistrictHeating
+#
+# AnnualBuildingUtilityPerformanceSummary - On-Site Thermal Sources Subtable
+#
+WaterSideHeatRecvyOnSiteSrc,AnnualBuildingUtilityPerformanceSummary,Entire Facility,OnSiteThermalSources,WaterSideHeatRecovery,Heat
+AirToAirHtRecCoolOnSiteSrc,AnnualBuildingUtilityPerformanceSummary,Entire Facility,OnSiteThermalSources,AirToAirHeatRecoveryForCooling,Heat
+AirToAirHtRecHeatOnSiteSrc,AnnualBuildingUtilityPerformanceSummary,Entire Facility,OnSiteThermalSources,AirToAirHeatRecoveryForHeating,Heat
+HighTempGeothermOnSiteSrc,AnnualBuildingUtilityPerformanceSummary,Entire Facility,OnSiteThermalSources,HighTemperatureGeothermal,Heat
+SolarWaterThermOnSiteSrc,AnnualBuildingUtilityPerformanceSummary,Entire Facility,OnSiteThermalSources,SolarWaterThermal,Heat
+SolarAirThermOnSiteSrc,AnnualBuildingUtilityPerformanceSummary,Entire Facility,OnSiteThermalSources,SolarAirThermal,Heat
+TotalOnSiteThermOnSiteSrc,AnnualBuildingUtilityPerformanceSummary,Entire Facility,OnSiteThermalSources,TotalOnSiteThermalSources,Heat
+#
+# AnnualBuildingUtilityPerformanceSummary - Comfort and Setpoint Not Met Summary Subtable
+#
+TimeSetPtNotMetHeat,AnnualBuildingUtilityPerformanceSummary,Entire Facility,ComfortAndSetpointNotMetSummary,Facility,TimeSetpointNotMetDuringOccupiedHeating
+TimeSetPtNotMetCool,AnnualBuildingUtilityPerformanceSummary,Entire Facility,ComfortAndSetpointNotMetSummary,Facility,TimeSetpointNotMetDuringOccupiedCooling
+TimeNotASH55,AnnualBuildingUtilityPerformanceSummary,Entire Facility,ComfortAndSetpointNotMetSummary,Facility,TimeNotComfortableBasedOnSimpleAshrae552004
+#
+# ==========================================================================================
+#
+# InputVerificationAndResultsSummary - General Subtable
+#
+ProgVerIVRS,InputVerificationAndResultsSummary,Entire Facility,General,Value,ProgramVersionAndBuild
+RunPeriodIVRS,InputVerificationAndResultsSummary,Entire Facility,General,Value,Runperiod
+WeatherIVRS,InputVerificationAndResultsSummary,Entire Facility,General,Value,WeatherFile
+LatitudeIVRS,InputVerificationAndResultsSummary,Entire Facility,General,Value,Latitude
+LongitudeIVRS,InputVerificationAndResultsSummary,Entire Facility,General,Value,Longitude
+ElevationIVRS,InputVerificationAndResultsSummary,Entire Facility,General,Value,Elevation
+HrsSimIVRS,InputVerificationAndResultsSummary,Entire Facility,General,Value,HoursSimulated
+#
+# InputVerificationAndResultsSummary - Envelope Window-Wall Ratio Subtable
+#
+TotalGrsWallAreaIVRS,InputVerificationAndResultsSummary,Entire Facility,WindowWallRatio,GrossWallArea,Total
+TotalWindOpenAreaIVRS,InputVerificationAndResultsSummary,Entire Facility,WindowWallRatio,WindowOpeningArea,Total
+TotalWWR,InputVerificationAndResultsSummary,Entire Facility,WindowWallRatio,GrossWindowWallRatio,Total
+NorthGrsWallAreaIVRS,InputVerificationAndResultsSummary,Entire Facility,WindowWallRatio,GrossWallArea,North315To45Deg
+NorthWindOpenAreaIVRS,InputVerificationAndResultsSummary,Entire Facility,WindowWallRatio,WindowOpeningArea,North315To45Deg
+NorthWWR,InputVerificationAndResultsSummary,Entire Facility,WindowWallRatio,GrossWindowWallRatio,North315To45Deg
+EastGrsWallAreaIVRS,InputVerificationAndResultsSummary,Entire Facility,WindowWallRatio,GrossWallArea,East45To135Deg
+EastWindOpenAreaIVRS,InputVerificationAndResultsSummary,Entire Facility,WindowWallRatio,WindowOpeningArea,East45To135Deg
+EastWWR,InputVerificationAndResultsSummary,Entire Facility,WindowWallRatio,GrossWindowWallRatio,East45To135Deg
+SouthGrsWallAreaIVRS,InputVerificationAndResultsSummary,Entire Facility,WindowWallRatio,GrossWallArea,South135To225Deg
+SouthWindOpenAreaIVRS,InputVerificationAndResultsSummary,Entire Facility,WindowWallRatio,WindowOpeningArea,South135To225Deg
+SouthWWR,InputVerificationAndResultsSummary,Entire Facility,WindowWallRatio,GrossWindowWallRatio,South135To225Deg
+WestGrsWallAreaIVRS,InputVerificationAndResultsSummary,Entire Facility,WindowWallRatio,GrossWallArea,West225To315Deg
+WestWindOpenAreaIVRS,InputVerificationAndResultsSummary,Entire Facility,WindowWallRatio,WindowOpeningArea,West225To315Deg
+WestWWR,InputVerificationAndResultsSummary,Entire Facility,WindowWallRatio,GrossWindowWallRatio,West225To315Deg
+#
+# InputVerificationAndResultsSummary - Envelope Skylight-Roof Ratio Subtable
+#
+GrsRoofAreaIVRS,InputVerificationAndResultsSummary,Entire Facility,SkylightRoofRatio,Total,GrossRoofArea
+SkyliteAreaIVRS,InputVerificationAndResultsSummary,Entire Facility,SkylightRoofRatio,Total,SkylightArea
+TotalSRR,InputVerificationAndResultsSummary,Entire Facility,SkylightRoofRatio,Total,SkylightRoofRatio
+#
+# InputVerificationAndResultsSummary - Performance Zone Summary Subtable
+#
+TotalLiteDensIVRS,InputVerificationAndResultsSummary,Entire Facility,ZoneSummary,Total,Lighting
+TotalPeopDensIVRS,InputVerificationAndResultsSummary,Entire Facility,ZoneSummary,Total,People
+TotalPlugDensIVRS,InputVerificationAndResultsSummary,Entire Facility,ZoneSummary,Total,PlugAndProcess
+CondLiteDensIVRS,InputVerificationAndResultsSummary,Entire Facility,ZoneSummary,ConditionedTotal,Lighting
+CondPeopDensIVRS,InputVerificationAndResultsSummary,Entire Facility,ZoneSummary,ConditionedTotal,People
+CondPlugDensIVRS,InputVerificationAndResultsSummary,Entire Facility,ZoneSummary,ConditionedTotal,PlugAndProcess
+#
+# ==========================================================================================
+#
+# DemandEndUseComponentsSummary - End Uses Subtable
+#
+ElecDemTimeOfPeakDEUCS,DemandEndUseComponentsSummary,Entire Facility,EndUses,TimeOfPeak,Electricity
+ElecDemHeatDEUCSS,DemandEndUseComponentsSummary,Entire Facility,EndUses,Heating,Electricity
+ElecDemCoolDEUCS,DemandEndUseComponentsSummary,Entire Facility,EndUses,Cooling,Electricity
+ElecDemIntLtDEUCS,DemandEndUseComponentsSummary,Entire Facility,EndUses,InteriorLighting,Electricity
+ElecDemExtLtDEUCS,DemandEndUseComponentsSummary,Entire Facility,EndUses,ExteriorLighting,Electricity
+ElecDemIntEqDEUCS,DemandEndUseComponentsSummary,Entire Facility,EndUses,InteriorEquipment,Electricity
+ElecDemExtEqDEUCS,DemandEndUseComponentsSummary,Entire Facility,EndUses,ExteriorEquipment,Electricity
+ElecDemFanDEUCS,DemandEndUseComponentsSummary,Entire Facility,EndUses,Fans,Electricity
+ElecDemPumpDEUCS,DemandEndUseComponentsSummary,Entire Facility,EndUses,Pumps,Electricity
+ElecDemHtRejDEUCS,DemandEndUseComponentsSummary,Entire Facility,EndUses,HeatRejection,Electricity
+ElecDemHumidDEUCS,DemandEndUseComponentsSummary,Entire Facility,EndUses,Humidification,Electricity
+ElecDemHtRecDEUCS,DemandEndUseComponentsSummary,Entire Facility,EndUses,HeatRecovery,Electricity
+ElecDemWatSysDEUCS,DemandEndUseComponentsSummary,Entire Facility,EndUses,WaterSystems,Electricity
+ElecDemRefrigDEUCS,DemandEndUseComponentsSummary,Entire Facility,EndUses,Refrigeration,Electricity
+ElecDemGenerDEUCS,DemandEndUseComponentsSummary,Entire Facility,EndUses,Generators,Electricity
+ElecDemTotalDEUCS,DemandEndUseComponentsSummary,Entire Facility,EndUses,TotalEndUses,Electricity
+GasDemTimeOfPeakDEUCS,DemandEndUseComponentsSummary,Entire Facility,EndUses,TimeOfPeak,NaturalGas
+GasDemHeatABUPS,DemandEndUseComponentsSummary,Entire Facility,EndUses,Heating,NaturalGas
+GasDemCoolABUPS,DemandEndUseComponentsSummary,Entire Facility,EndUses,Cooling,NaturalGas
+GasDemDemIntEqABUPS,DemandEndUseComponentsSummary,Entire Facility,EndUses,InteriorEquipment,NaturalGas
+GasDemExtEqABUPS,DemandEndUseComponentsSummary,Entire Facility,EndUses,ExteriorEquipment,NaturalGas
+GasDemHumidABUPS,DemandEndUseComponentsSummary,Entire Facility,EndUses,Humidification,NaturalGas
+GasDemHtRecABUPS,DemandEndUseComponentsSummary,Entire Facility,EndUses,HeatRecovery,NaturalGas
+GasDemWatSysABUPS,DemandEndUseComponentsSummary,Entire Facility,EndUses,WaterSystems,NaturalGas
+GasDemGenerABUPS,DemandEndUseComponentsSummary,Entire Facility,EndUses,Generators,NaturalGas
+GasDemTotalABUPS,DemandEndUseComponentsSummary,Entire Facility,EndUses,TotalEndUses,NaturalGas
+#
+# ==========================================================================================
+#
+# EnvelopeSummary - ExteriorFenestration subtable
+#
+GlassUFactEnv,EnvelopeSummary,Entire Facility,ExteriorFenestration,TotalOrAverage,GlassUFactor
+GlassShgcEnv,EnvelopeSummary,Entire Facility,ExteriorFenestration,TotalOrAverage,GlassShgc
+GlassVtEnv,EnvelopeSummary,Entire Facility,ExteriorFenestration,TotalOrAverage,GlassVisibleTransmittance
+NGlassUFactEnv,EnvelopeSummary,Entire Facility,ExteriorFenestration,NorthTotalOrAverage,GlassUFactor
+NGlassShgcEnv,EnvelopeSummary,Entire Facility,ExteriorFenestration,NorthTotalOrAverage,GlassShgc
+NGlassVtEnv,EnvelopeSummary,Entire Facility,ExteriorFenestration,NorthTotalOrAverage,GlassVisibleTransmittance
+NonNGlassUFactEnv,EnvelopeSummary,Entire Facility,ExteriorFenestration,NonNorthTotalOrAverage,GlassUFactor
+NonNGlassShgcEnv,EnvelopeSummary,Entire Facility,ExteriorFenestration,NonNorthTotalOrAverage,GlassShgc
+NonNGlassVtEnv,EnvelopeSummary,Entire Facility,ExteriorFenestration,NonNorthTotalOrAverage,GlassVisibleTransmittance
+#
+# ==========================================================================================
+#
+# LightingSummary - InteriorLighting subtable
+#
+LpdIntLite,LightingSummary,Entire Facility,InteriorLighting,InteriorLightingTotal,LightingPowerDensity
+PowerIntLite,LightingSummary,Entire Facility,InteriorLighting,InteriorLightingTotal,TotalPower
+ConsIntLite,LightingSummary,Entire Facility,InteriorLighting,InteriorLightingTotal,Consumption
+#
+# LightingSummary - ExteriorLighting subtable
+#
+PowerExtLite,LightingSummary,Entire Facility,ExteriorLighting,ExteriorLightingTotal,TotalWatts
+ConsExtLite,LightingSummary,Entire Facility,ExteriorLighting,ExteriorLightingTotal,Consumption
+#
+# ==========================================================================================
+#
+# SystemSummary - TimeNotComfortableBasedOnSimpleAshrae552004 subtable
+#
+TimeNotASH55Winter,SystemSummary,Entire Facility,TimeNotComfortableBasedOnSimpleAshrae552004,Facility,WinterClothes
+TimeNotASH55Summer,SystemSummary,Entire Facility,TimeNotComfortableBasedOnSimpleAshrae552004,Facility,SummerClothes
+TimeNotASH55SumWint,SystemSummary,Entire Facility,TimeNotComfortableBasedOnSimpleAshrae552004,Facility,SummerOrWinterClothes
+#
+# SystemSummary - TimeSetpointNotMet subtable
+#
+TimeSetPtNotMetHeat,SystemSummary,Entire Facility,TimeSetpointNotMet,Facility,DuringHeating
+TimeSetPtNotMetCool,SystemSummary,Entire Facility,TimeSetpointNotMet,Facility,DuringCooling
+TimeSetPtNotMetOccHeat,SystemSummary,Entire Facility,TimeSetpointNotMet,Facility,DuringOccupiedHeating
+TimeSetPtNotMetOccCool,SystemSummary,Entire Facility,TimeSetpointNotMet,Facility,DuringOccupiedCooling
+#
+# ==========================================================================================
+#
+# SensibleHeatGainSummary - AnnualBuildingSensibleHeatGainComponents subtable
+#
+AnnualHvacInputSensibleAirHeating,SensibleHeatGainSummary,Entire Facility,AnnualBuildingSensibleHeatGainComponents,TotalFacility,HvacInputSensibleAirHeating
+AnnualHvacInputSensibleAirCooling,SensibleHeatGainSummary,Entire Facility,AnnualBuildingSensibleHeatGainComponents,TotalFacility,HvacInputSensibleAirCooling
+AnnualHvacInputHeatedSurfaceHeating,SensibleHeatGainSummary,Entire Facility,AnnualBuildingSensibleHeatGainComponents,TotalFacility,HvacInputHeatedSurfaceHeating
+AnnualHvacInputCooledSurfaceCooling,SensibleHeatGainSummary,Entire Facility,AnnualBuildingSensibleHeatGainComponents,TotalFacility,HvacInputCooledSurfaceCooling
+AnnualPeopleSensibleHeatAddition,SensibleHeatGainSummary,Entire Facility,AnnualBuildingSensibleHeatGainComponents,TotalFacility,PeopleSensibleHeatAddition
+AnnualLightsSensibleHeatAddition,SensibleHeatGainSummary,Entire Facility,AnnualBuildingSensibleHeatGainComponents,TotalFacility,LightsSensibleHeatAddition
+AnnualEquipmentSensibleHeatAddition,SensibleHeatGainSummary,Entire Facility,AnnualBuildingSensibleHeatGainComponents,TotalFacility,EquipmentSensibleHeatAddition
+AnnualWindowHeatAddition,SensibleHeatGainSummary,Entire Facility,AnnualBuildingSensibleHeatGainComponents,TotalFacility,WindowHeatAddition
+AnnualInterzoneAirTransferHeatAddition,SensibleHeatGainSummary,Entire Facility,AnnualBuildingSensibleHeatGainComponents,TotalFacility,InterzoneAirTransferHeatAddition
+AnnualInfiltrationHeatAddition,SensibleHeatGainSummary,Entire Facility,AnnualBuildingSensibleHeatGainComponents,TotalFacility,InfiltrationHeatAddition
+AnnualOpaqueSurfaceConductionAndOtherHeatAddition,SensibleHeatGainSummary,Entire Facility,AnnualBuildingSensibleHeatGainComponents,TotalFacility,OpaqueSurfaceConductionAndOtherHeatAddition
+AnnualEquipmentSensibleHeatRemoval,SensibleHeatGainSummary,Entire Facility,AnnualBuildingSensibleHeatGainComponents,TotalFacility,EquipmentSensibleHeatRemoval
+AnnualWindowHeatRemoval,SensibleHeatGainSummary,Entire Facility,AnnualBuildingSensibleHeatGainComponents,TotalFacility,WindowHeatRemoval
+AnnualInterzoneAirTransferHeatRemoval,SensibleHeatGainSummary,Entire Facility,AnnualBuildingSensibleHeatGainComponents,TotalFacility,InterzoneAirTransferHeatRemoval
+AnnualInfiltrationHeatRemoval,SensibleHeatGainSummary,Entire Facility,AnnualBuildingSensibleHeatGainComponents,TotalFacility,InfiltrationHeatRemoval
+AnnualOpaqueSurfaceConductionAndOtherHeatRemoval,SensibleHeatGainSummary,Entire Facility,AnnualBuildingSensibleHeatGainComponents,TotalFacility,OpaqueSurfaceConductionAndOtherHeatRemoval
+#
+# SensibleHeatGainSummary - PeakCoolingSensibleHeatGainComponents subtable
+#
+PeakCoolTimeOfPeak,SensibleHeatGainSummary,Entire Facility,PeakCoolingSensibleHeatGainComponents,TotalFacility,TimeOfPeak
+PeakCoolHvacInputSensibleAirHeating,SensibleHeatGainSummary,Entire Facility,PeakCoolingSensibleHeatGainComponents,TotalFacility,HvacInputSensibleAirHeating
+PeakCoolHvacInputSensibleAirCooling,SensibleHeatGainSummary,Entire Facility,PeakCoolingSensibleHeatGainComponents,TotalFacility,HvacInputSensibleAirCooling
+PeakCoolHvacInputHeatedSurfaceHeating,SensibleHeatGainSummary,Entire Facility,PeakCoolingSensibleHeatGainComponents,TotalFacility,HvacInputHeatedSurfaceHeating
+PeakCoolHvacInputCooledSurfaceCooling,SensibleHeatGainSummary,Entire Facility,PeakCoolingSensibleHeatGainComponents,TotalFacility,HvacInputCooledSurfaceCooling
+PeakCoolPeopleSensibleHeatAddition,SensibleHeatGainSummary,Entire Facility,PeakCoolingSensibleHeatGainComponents,TotalFacility,PeopleSensibleHeatAddition
+PeakCoolLightsSensibleHeatAddition,SensibleHeatGainSummary,Entire Facility,PeakCoolingSensibleHeatGainComponents,TotalFacility,LightsSensibleHeatAddition
+PeakCoolEquipmentSensibleHeatAddition,SensibleHeatGainSummary,Entire Facility,PeakCoolingSensibleHeatGainComponents,TotalFacility,EquipmentSensibleHeatAddition
+PeakCoolWindowHeatAddition,SensibleHeatGainSummary,Entire Facility,PeakCoolingSensibleHeatGainComponents,TotalFacility,WindowHeatAddition
+PeakCoolInterzoneAirTransferHeatAddition,SensibleHeatGainSummary,Entire Facility,PeakCoolingSensibleHeatGainComponents,TotalFacility,InterzoneAirTransferHeatAddition
+PeakCoolInfiltrationHeatAddition,SensibleHeatGainSummary,Entire Facility,PeakCoolingSensibleHeatGainComponents,TotalFacility,InfiltrationHeatAddition
+PeakCoolOpaqueSurfaceConductionAndOtherHeatAddition,SensibleHeatGainSummary,Entire Facility,PeakCoolingSensibleHeatGainComponents,TotalFacility,OpaqueSurfaceConductionAndOtherHeatAddition
+PeakCoolEquipmentSensibleHeatRemoval,SensibleHeatGainSummary,Entire Facility,PeakCoolingSensibleHeatGainComponents,TotalFacility,EquipmentSensibleHeatRemoval
+PeakCoolWindowHeatRemoval,SensibleHeatGainSummary,Entire Facility,PeakCoolingSensibleHeatGainComponents,TotalFacility,WindowHeatRemoval
+PeakCoolInterzoneAirTransferHeatRemoval,SensibleHeatGainSummary,Entire Facility,PeakCoolingSensibleHeatGainComponents,TotalFacility,InterzoneAirTransferHeatRemoval
+PeakCoolInfiltrationHeatRemoval,SensibleHeatGainSummary,Entire Facility,PeakCoolingSensibleHeatGainComponents,TotalFacility,InfiltrationHeatRemoval
+PeakCoolOpaqueSurfaceConductionAndOtherHeatRemoval,SensibleHeatGainSummary,Entire Facility,PeakCoolingSensibleHeatGainComponents,TotalFacility,OpaqueSurfaceConductionAndOtherHeatRemoval
+#
+# SensibleHeatGainSummary - PeakHeatingSensibleHeatGainComponents subtable
+#
+PeakHeatTimeOfPeak,SensibleHeatGainSummary,Entire Facility,PeakHeatingSensibleHeatGainComponents,TotalFacility,TimeOfPeak
+PeakHeatHvacInputSensibleAirHeating,SensibleHeatGainSummary,Entire Facility,PeakHeatingSensibleHeatGainComponents,TotalFacility,HvacInputSensibleAirHeating
+PeakHeatHvacInputSensibleAirCooling,SensibleHeatGainSummary,Entire Facility,PeakHeatingSensibleHeatGainComponents,TotalFacility,HvacInputSensibleAirCooling
+PeakHeatHvacInputHeatedSurfaceHeating,SensibleHeatGainSummary,Entire Facility,PeakHeatingSensibleHeatGainComponents,TotalFacility,HvacInputHeatedSurfaceHeating
+PeakHeatHvacInputCooledSurfaceCooling,SensibleHeatGainSummary,Entire Facility,PeakHeatingSensibleHeatGainComponents,TotalFacility,HvacInputCooledSurfaceCooling
+PeakHeatPeopleSensibleHeatAddition,SensibleHeatGainSummary,Entire Facility,PeakHeatingSensibleHeatGainComponents,TotalFacility,PeopleSensibleHeatAddition
+PeakHeatLightsSensibleHeatAddition,SensibleHeatGainSummary,Entire Facility,PeakHeatingSensibleHeatGainComponents,TotalFacility,LightsSensibleHeatAddition
+PeakHeatEquipmentSensibleHeatAddition,SensibleHeatGainSummary,Entire Facility,PeakHeatingSensibleHeatGainComponents,TotalFacility,EquipmentSensibleHeatAddition
+PeakHeatWindowHeatAddition,SensibleHeatGainSummary,Entire Facility,PeakHeatingSensibleHeatGainComponents,TotalFacility,WindowHeatAddition
+PeakHeatInterzoneAirTransferHeatAddition,SensibleHeatGainSummary,Entire Facility,PeakHeatingSensibleHeatGainComponents,TotalFacility,InterzoneAirTransferHeatAddition
+PeakHeatInfiltrationHeatAddition,SensibleHeatGainSummary,Entire Facility,PeakHeatingSensibleHeatGainComponents,TotalFacility,InfiltrationHeatAddition
+PeakHeatOpaqueSurfaceConductionAndOtherHeatAddition,SensibleHeatGainSummary,Entire Facility,PeakHeatingSensibleHeatGainComponents,TotalFacility,OpaqueSurfaceConductionAndOtherHeatAddition
+PeakHeatEquipmentSensibleHeatRemoval,SensibleHeatGainSummary,Entire Facility,PeakHeatingSensibleHeatGainComponents,TotalFacility,EquipmentSensibleHeatRemoval
+PeakHeatWindowHeatRemoval,SensibleHeatGainSummary,Entire Facility,PeakHeatingSensibleHeatGainComponents,TotalFacility,WindowHeatRemoval
+PeakHeatInterzoneAirTransferHeatRemoval,SensibleHeatGainSummary,Entire Facility,PeakHeatingSensibleHeatGainComponents,TotalFacility,InterzoneAirTransferHeatRemoval
+PeakHeatInfiltrationHeatRemoval,SensibleHeatGainSummary,Entire Facility,PeakHeatingSensibleHeatGainComponents,TotalFacility,InfiltrationHeatRemoval
+PeakHeatOpaqueSurfaceConductionAndOtherHeatRemoval,SensibleHeatGainSummary,Entire Facility,PeakHeatingSensibleHeatGainComponents,TotalFacility,OpaqueSurfaceConductionAndOtherHeatRemoval
+#
+# ==========================================================================================
+#
+# LeedSummary - Eap245PerformanceRatingMethodCompliance subtable
+#
+LEEDtotElec,LeedSummary,Entire Facility,Eap245PerformanceRatingMethodCompliance,TotalLine,ElectricEnergyUse
+LEEDtotGas,LeedSummary,Entire Facility,Eap245PerformanceRatingMethodCompliance,TotalLine,NaturalGasEnergyUse
+#
+# ==========================================================================================
+#
+# Elecdemandnotlights and PeakElectricalDemand
+#
+AllelecbutintlightsMaximum,Elecdemandnotlights,Meter,CustomMonthlyReport,AllelecbutintlightsMaximum,MaximumOfMonths
+ElectricityFacilityAtMaxButIntLite,Elecdemandnotlights,Meter,CustomMonthlyReport,ElectricityFacilityAtMaxMin,MaximumOfMonths
+InteriorlightsElectricityAtMaxButIntLite,Elecdemandnotlights,Meter,CustomMonthlyReport,InteriorlightsElectricityAtMaxMin,MaximumOfMonths
+FacilityPeakElectricalDemand,PeakElectricalDemand,Meter,CustomMonthlyReport,ElectricityFacilityMaximum,MaximumOfMonths
+#
+# ==========================================================================================
+#
+# EquipmentSummary - CentralPlant subtable
+#
+# the following lines were used prior to the #sum enhancement
+# EqChiller01,EquipmentSummary,Entire Facility,CentralPlant,Coolsys1Chiller1,NominalCapacity
+# EqChiller02,EquipmentSummary,Entire Facility,CentralPlant,Coolsys1Chiller2,NominalCapacity
+# EqChiller03,EquipmentSummary,Entire Facility,CentralPlant,Coolsys1Chiller,NominalCapacity
+# EqChiller04,EquipmentSummary,Entire Facility,CentralPlant,z,NominalCapacity
+# EqChiller05,EquipmentSummary,Entire Facility,CentralPlant,z,NominalCapacity
+# EqChiller06,EquipmentSummary,Entire Facility,CentralPlant,z,NominalCapacity
+# EqTower01,EquipmentSummary,Entire Facility,CentralPlant,CentralTower,NominalCapacity
+# EqTower02,EquipmentSummary,Entire Facility,CentralPlant,TowerwatersysCooltower,NominalCapacity
+# EqTower03,EquipmentSummary,Entire Facility,CentralPlant,z,NominalCapacity
+# EqTower04,EquipmentSummary,Entire Facility,CentralPlant,z,NominalCapacity
+# EqTower05,EquipmentSummary,Entire Facility,CentralPlant,z,NominalCapacity
+# EqTower06,EquipmentSummary,Entire Facility,CentralPlant,z,NominalCapacity
+# EqBoiler01,EquipmentSummary,Entire Facility,CentralPlant,CentralBoiler,NominalCapacity
+# EqBoiler02,EquipmentSummary,Entire Facility,CentralPlant,Heatsys1Boiler,NominalCapacity
+# EqBoiler03,EquipmentSummary,Entire Facility,CentralPlant,z,NominalCapacity
+# EqBoiler04,EquipmentSummary,Entire Facility,CentralPlant,z,NominalCapacity
+# EqBoiler05,EquipmentSummary,Entire Facility,CentralPlant,z,NominalCapacity
+# EqBoiler06,EquipmentSummary,Entire Facility,CentralPlant,z,NominalCapacity
+#
+EqBlrSum,EquipmentSummary,Entire Facility,CentralPlant,#sum-Boiler:HotWater,NominalCapacity
+EqChlrEIRSum,EquipmentSummary,Entire Facility,CentralPlant,#sum-Chiller:Electric:EIR,NominalCapacity
+EqChlrReformEIRSum,EquipmentSummary,Entire Facility,CentralPlant,#sum-Chiller:Electric:ReformulatedEIR,NominalCapacity
+EqTower2SpdSum,EquipmentSummary,Entire Facility,CentralPlant,#sum-CoolingTower:TwoSpeed,NominalCapacity
+EqEvapFluidCool1Sum,EquipmentSummary,Entire Facility,CentralPlant,#sum-EvaporativeFluidCooler:SingleSpeed,NominalCapacity
+#
+# ==========================================================================================
+#
+# EquipmentSummary - CoolingCoils subtable
+#
+EqCoilCoolWaterSum,EquipmentSummary,Entire Facility,CoolingCoils,#sum-Coil:Cooling:Water,NominalTotalCapacity
+EqCoilCoolDX2Sum,EquipmentSummary,Entire Facility,CoolingCoils,#sum-Coil:Cooling:DX:TwoSpeed,NominalTotalCapacity
+EqCoilCoolDX1Sum,EquipmentSummary,Entire Facility,CoolingCoils,#sum-Coil:Cooling:DX:SingleSpeed,NominalTotalCapacity
+EqCoilCoolW2AHPSum,EquipmentSummary,Entire Facility,CoolingCoils,#sum-Coil:Cooling:WaterToAirHeatPump:EquationFit,NominalTotalCapacity
+#
+# ==========================================================================================
+#
+# EquipmentSummary - DxCoolingCoils subtable
+#
+EqCoilCoolDX2StdSum,EquipmentSummary,Entire Facility,DxCoolingCoils,#sum-Coil:Cooling:DX:TwoSpeed,StandardRatedNetCoolingCapacity
+EqCoilCoolDX1StdSum,EquipmentSummary,Entire Facility,DxCoolingCoils,#sum-Coil:Cooling:DX:SingleSpeed,StandardRatedNetCoolingCapacity
+#
+# ==========================================================================================
+#
+# EquipmentSummary - HeatingCoils subtable
+#
+EqCoilHeatWaterSum,EquipmentSummary,Entire Facility,HeatingCoils,#sum-Coil:Heating:Water,NominalTotalCapacity
+EqCoilHeatGasSum,EquipmentSummary,Entire Facility,HeatingCoils,#sum-Coil:Heating:Gas,NominalTotalCapacity
+EqCoilHeatElecSum,EquipmentSummary,Entire Facility,HeatingCoils,#sum-Coil:Heating:Electric,NominalTotalCapacity
+EqCoilHeatDX1Sum,EquipmentSummary,Entire Facility,HeatingCoils,#sum-Coil:Heating:DX:SingleSpeed,NominalTotalCapacity
+EqCoilHeatW2AHPSum,EquipmentSummary,Entire Facility,HeatingCoils,#sum-Coil:Heating:WaterToAirHeatPump:EquationFit,NominalTotalCapacity
+#
+# ==========================================================================================
+#
+# EquipmentSummary - DxHeatingCoils subtable
+#
+EqCoilHeatDX1StdSum,EquipmentSummary,Entire Facility,DxHeatingCoils,#sum-Coil:Heating:DX:SingleSpeed,HighTemperatureHeatingNetRatingCapacity
+#                                                    
+# ==========================================================================================
+#
+# EquipmentSummary - Fans subtable
+#
+EqFanExhaustSum,EquipmentSummary,Entire Facility,Fans,#sum-Fan:ZoneExhaust,MaxAirFlowRate
+EqFanVarVolSum,EquipmentSummary,Entire Facility,Fans,#sum-Fan:VariableVolume,MaxAirFlowRate
+EqFanConstVolSum,EquipmentSummary,Entire Facility,Fans,#sum-Fan:ConstantVolume,MaxAirFlowRate
+EqFanOnOffSum,EquipmentSummary,Entire Facility,Fans,#sum-Fan:OnOff,MaxAirFlowRate
+#
+# ==========================================================================================
+#
+# EquipmentSummary - Pumps subtable
+#
+EqPumpVarSpdSum,EquipmentSummary,Entire Facility,Pumps,#sum-Pump:VariableSpeed,WaterFlow
+EqPumpConstSpdSum,EquipmentSummary,Entire Facility,Pumps,#sum-Pump:ConstantSpeed,WaterFlow
+#
+# ==========================================================================================
+#
+# EquipmentSummary - ServiceWaterHeating subtable
+#
+EqWatHtrMixSum,EquipmentSummary,Entire Facility,ServiceWaterHeating,#sum-WaterHeater:Mixed,Input
+#
+# ==========================================================================================
+#
+# EquipmentSummary - VavDxCoolingStandardRatingDetails subtable
+#
+EqCoilCoolDX2NetSum,EquipmentSummary,Entire Facility,VavDxCoolingStandardRatingDetails,#sum-Coil:Cooling:DX:TwoSpeed,NetCoolingCapacity
+#
+# ==========================================================================================
+#
+# Demands used in the transformer capacities
+PeakElecDemandWithLights,PeakElectricalDemand,Meter,CustomMonthlyReport,ElectricityFacilityMaximum,MaximumOfMonths
+PeakElecDemandNoLights,Elecdemandnotlights,Meter,CustomMonthlyReport,AllelecbutintlightsMaximum,MaximumOfMonths
